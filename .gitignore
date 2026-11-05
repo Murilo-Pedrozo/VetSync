@@ -1,0 +1,16 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Segredos (nunca vão para o GitHub)
+.env
+
+# Node
+node_modules/
+dist/
+
+# Editor e sistema
+.vscode/
+Thumbs.db
