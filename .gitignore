@@ -14,3 +14,4 @@ dist/
 # Editor e sistema
 .vscode/
 Thumbs.db
+db.sqlite3
