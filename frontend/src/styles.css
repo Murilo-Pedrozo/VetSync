@@ -229,3 +229,10 @@ tr:nth-child(even) .status, li:nth-child(even) > .status { --rot: 1.5deg }
 /* React: abas são links */
 a.nav-item { text-decoration: none }
 #root { min-height: 100vh }
+
+/* fatia 2: listas, paginação e erros de campo */
+.paginacao { display: flex; gap: 12px; align-items: center; justify-content: flex-end; margin-top: 14px; font-size: .85rem; color: var(--ink-soft) }
+.campo-erro { display: block; color: var(--brick); font-weight: 400; font-size: .78rem; margin-top: 4px }
+.two-col > label { margin-top: 14px }
+.search { display: block; width: 100%; max-width: 360px; margin: 0 0 14px }
+.table td { word-break: break-word }
